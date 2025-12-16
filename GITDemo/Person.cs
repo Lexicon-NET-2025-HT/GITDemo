@@ -4,5 +4,5 @@ using System.Text;
 
 namespace GITDemo;
 
-internal record Person(string Name, int Age);
+internal record Person(string LastName, int Age);
 

@@ -6,6 +6,8 @@ namespace GITDemo;
 
 internal class Demo
 {
-    public int MyProperty { get; set; }
+    public int Huggsnok { get; set; }
     public int MyProperty1 { get; set; }
+
+    public string Name { get; set; }
 }
