@@ -4,8 +4,5 @@ using System.Text;
 
 namespace GITDemo;
 
-internal class Person
-{
-    public int Age { get; set; }
-    public string Name { get; set; } = string.Empty;
-}
+internal record Person(string Name, int Age);
+

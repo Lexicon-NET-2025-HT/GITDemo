@@ -1,6 +1,4 @@
 ﻿namespace GITDemo;
 
-internal class Employee  : Person
-{
-    public int Salary { get; set; }
-}
+internal record Employee(int Salary, string Name, int Age)  : Person(Name, Age);
+
