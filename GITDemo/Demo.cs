@@ -7,5 +7,7 @@ namespace GITDemo;
 internal class Demo
 {
     public int Age { get; set; }
-    public int Salary { get; set; }
+    public int Salary { get; }
+    public int Huggsnok { get; set; }
+    public string Name { get; set; }
 }
